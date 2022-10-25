@@ -15,7 +15,7 @@ s.proxies = {"http": proxy_string, "https": proxy_string}
 s.auth = HTTPProxyAuth(user, password)
 s.trust_env = False
 r = s.get(
-    "https://myapp.com/",
+    url_to_call,
     proxies={"http": proxy_string, "https": proxy_string},
     headers={
         "Authorization": f"Bearer {token}"
