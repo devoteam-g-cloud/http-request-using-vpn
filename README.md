@@ -1,6 +1,6 @@
 # HTTP request using a VPN
 
-I had to make an API call to an endpoint protected by a VPN. When looking for documentation, I mainly found posts about issues making an API call rather than how to do it.
+The objective of this snippet is to provide people with a solution to make HTTP requests when the server you are trying to contact is only available via VPN.
 
 ## Setup
 
